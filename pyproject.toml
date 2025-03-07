@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "luciddreams-backend-task"
+version = "0.1.0"
+description = ""
+authors = ["Michał Freliszka <mfreliszka@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.115.11"
+sqlalchemy = "^2.0.38"
+ruff = "^0.9.9"
+uvicorn = "^0.34.0"
+mysql-connector-python = "^9.2.0"
+alembic = "^1.15.1"
+pydantic = "^2.10.6"
+passlib = "^1.7.4"
+bcrypt = "^4.3.0"
+redis = "^5.2.1"
+python-dotenv = "^1.0.1"
+pydantic-settings = "^2.8.1"
+email-validator = "^2.2.0"
+pyjwt = "^2.10.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
