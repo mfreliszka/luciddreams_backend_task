@@ -27,7 +27,7 @@ This is a FastAPI web application following the MVC (Model-View-Controller) desi
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/luciddreams_backend_task.git
+   git clone git@github.com:mfreliszka/luciddreams_backend_task.git
    cd luciddreams_backend_task
    ```
 
